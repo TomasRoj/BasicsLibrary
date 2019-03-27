@@ -37,6 +37,9 @@ ex. instanceName.blinking().
 
 # rgbLed(int red, int green, int blue); 
 //RGB led blinking with all of its colors. You must define pin of all three diod pins.
+
+# servoTurning(int dataPin);
+//turns servo from 0 to 18 degrees. Must be included with OUT pin of servo.
 ```
 
 ### Support or Contact
