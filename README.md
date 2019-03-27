@@ -1,9 +1,9 @@
 ## Welcome to BasicsLibrary docs.
-An easy to-use library for beginers with examples to start their adventure with arduino.
+An easy to-use library for beginners with examples to start their adventure with arduino.
 
 ### What is it & why you should use it.
 
-BasicsLibrary is a open-source library for Arduino beginners. With easy to-use design i created it. If you or your friend is having trouble with basics of arduino my library will problably help him. All you must know is how to use breadboard, connect wires and electronic componets to it. And thats all. Dont worry about source code again! With simple methods included you can just call one and focus on hardware. 
+BasicsLibrary is an open-source library for Arduino beginners. With easy to-use experience I made it. If you or your friend is having trouble with basics of arduino my library will problably help him. All you must know is how to use breadboard, connect wires and electronic componets to it. And thats all. Dont worry about source code again! With simple methods included you can just call one and focus on hardware. 
 
 ### How to set up:
 
@@ -39,7 +39,7 @@ ex. instanceName.blinking().
 //RGB led blinking with all of its colors. You must define pin of all three diod pins.
 
 # servoTurning(int dataPin);
-//turns servo from 0 to 18 degrees. Must be included with OUT pin of servo.
+//turns servo from 0 to 180 degrees. Must be included with OUT pin of servo.
 ```
 
 ### Support or Contact
