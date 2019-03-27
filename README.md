@@ -11,9 +11,10 @@ BasicsLibrary is a open-source library for Arduino beginners. With easy to-use d
 2. Use the following code into your Arduino sketch: 
 
 ```markdown
-#include <BasicsLibrary.h> //imports the library
+# #include <BasicsLibrary.h> //imports the library
 
-BasicsLibrary instance(4); //Creates the BasicsLibrary instance. There must be pin number even
+# BasicsLibrary instance(4); 
+//Creates the BasicsLibrary instance. There must be pin number even
 //if you dont must to.
 ```
 3. And thats it! Then just use your breadboard and one of the following methods with the instance name.
@@ -22,11 +23,20 @@ ex. instanceName.blinking().
 ### All methods - usage and requirements.
 
 ```markdown
-btnSetup(button pin);  //Does the required setup of button.
-btn(button pin);   //Defines code of button. Must be used with the btnSetup() method.
-blinking();  //Led blinking. Uses pin from instance creation.
-serial(String text);   //Starts and prints text to serial (9600 bauds.). Must be used with the string with text.
-rgbLed(int red, int green, int blue);  //RGB led blinking with all of its colors. You must define pin of all three diod pins.
+# btnSetup(button pin);  
+//Does the required setup of button.
+
+# btn(button pin);   
+//Defines code of button. Must be used with the btnSetup() method.
+
+# blinking(); 
+//Led blinking. Uses pin from instance creation.
+
+# serial(String text);
+//Starts and prints text to serial (9600 bauds.). Must be used with the string with text.
+
+# rgbLed(int red, int green, int blue); 
+//RGB led blinking with all of its colors. You must define pin of all three diod pins.
 ```
 
 ### Support or Contact
