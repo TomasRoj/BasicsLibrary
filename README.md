@@ -22,14 +22,12 @@ ex. instanceName.blinking().
 ### All methods - usage and requirements.
 
 ```markdown
-btnSetup(button pin); //Does the required setup of button.
-btn(button pin); //Defines code of button. Must be used with the btnSetup() method.
-blinking(); //Led blinking. Uses pin from instance creation.
-serial(String text); //Starts and prints text to serial (9600 bauds.). Must be used with the string with text.
-rgbLed(int red, int green, int blue); //RGB led blinking with all of its colors. You must define pin of all three diod pins.
+btnSetup(button pin);  //Does the required setup of button.
+btn(button pin);   //Defines code of button. Must be used with the btnSetup() method.
+blinking();  //Led blinking. Uses pin from instance creation.
+serial(String text);   //Starts and prints text to serial (9600 bauds.). Must be used with the string with text.
+rgbLed(int red, int green, int blue);  //RGB led blinking with all of its colors. You must define pin of all three diod pins.
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Support or Contact
 
