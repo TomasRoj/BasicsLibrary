@@ -1,5 +1,6 @@
 ## Welcome to BasicsLibrary docs.
 An easy to-use library for beginners with examples to start their adventure with arduino.
+Hole tutorial is also on - https://tomasroj.github.io/BasicsLibrary/.
 
 ### What is it & why you should use it.
 
