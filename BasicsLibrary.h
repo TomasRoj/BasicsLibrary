@@ -4,15 +4,15 @@
  * Open source, free to use.
  */
 
-#ifndef Basics_h
-#define Basics_h
+#ifndef BasicsLibrary_h
+#define BasicsLibrary_h
 
 #include "Arduino.h"
 
-class Basics
+class BasicsLibrary
 {
   public:
-    Basics(int pin);
+    BasicsLibrary(int pin);
     void blinking();
     void serial(String text);
     void btn(int button);
