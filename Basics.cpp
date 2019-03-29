@@ -5,31 +5,31 @@
  */
 
 #include "Arduino.h"
-#include "Basics.h"
+#include "BasicsLibrary.h"
 
-Basics::Basics(int pin){
+BasicsLibrary::BasicsLibrary(int pin){
   _pin = pin;
 }
 
-void Basics::btnSetup(int buttonPin){
+void BasicsLibrary::btnSetup(int buttonPin){
   pinMode(buttonPin, INPUT_PULLUP);
   digitalWrite(_pin, HIGH);
 }
 
-void Basics::blinking(){
+void BasicsLibrary::blinking(){
   digitalWrite(_pin, HIGH);
   delay(1000);
   digitalWrite(_pin, LOW);
   delay(1000);
 }
 
-void Basics::serial(String text){
+void BasicsLibrary::serial(String text){
   Serial.begin(9600);
   Serial.println(text);
   delay(1500);
 }
 
-void Basics::btn(int buttonPin){
+void BasicsLibrary::btn(int buttonPin){
 
   if (digitalRead(buttonPin) == LOW){
     digitalWrite(_pin, LOW);
@@ -42,7 +42,7 @@ void Basics::btn(int buttonPin){
 
 }
 
-void Basics::rgbLed(int red, int green, int blue){
+void BasicsLibrary::rgbLed(int red, int green, int blue){
 
   pinMode(red, OUTPUT);
   pinMode(green, OUTPUT);
@@ -61,7 +61,7 @@ void Basics::rgbLed(int red, int green, int blue){
 
 }
 
-void Basics::servoTurning(int dataPin){
+void BasicsLibrary::servoTurning(int dataPin){
   #include <Servo.h>     
   Servo myservo;         
   int pos = 0;          
