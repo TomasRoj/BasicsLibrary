@@ -1,7 +1,7 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-pin KEYWORD1
+pin	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
