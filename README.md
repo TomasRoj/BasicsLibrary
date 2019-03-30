@@ -45,8 +45,25 @@ ex. instanceName.blinking().
 //Writes some text to display. Define connected pins, text and info about your display (collums, rows).
 
 # instagramData(String ssid, String password, String userName);
-//Gets number of instagram followers on your instagram. (ESP8266/ESP32).
+//Gets number of instagram followers on your instagram. (ESP8266/ESP32). Must download JsonStreamingParser.h library.
 
+# wifiScan();
+//Search and prints list of availibe networks. (ESP8266/32).
+
+# wifiAccesPoint(String ssid, String password);
+//Makes web server on addres printed on serial. Include ssid(name) and password of your network.
+
+# rtcClock();
+Gets day, hour date etc. from DS1307 real time clock.
+
+# playCrazyFrog(int pin);
+//Plays funny crazy frog melody on buzzer. Pin defined in instance creation.
+
+# playPirates(int pin);
+//Plays pirate melody on buzzer. Pin defined in instance creation.
+
+# playTitanic(int pin);
+//Plays well-known titanic melody on buzzer. Pin defined in instance creation
 ```
 
 ### Support or Contact
