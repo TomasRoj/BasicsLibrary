@@ -261,8 +261,6 @@ void BasicsLibrary::rtcClock(){
 #include <Wire.h>
 #include <DS1307.h>
 
-void setup()
-{
     Serial.begin(9600);
     RTC.begin();
     
@@ -272,7 +270,6 @@ void setup()
     else
         Serial.println("No. Time may be Inaccurate");
 
-    
     Serial.print("Hour Mode : ");
     if (RTC.getHourMode() == CLOCK_H24)
         Serial.println("24 Hours");
