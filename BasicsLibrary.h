@@ -19,6 +19,8 @@ class BasicsLibrary
     void btnSetup(int button);
     void rgbLed(int red, int green, int blue);
     void servoTurning(int dataPin);
+    void displayWrite(const int displayPins, String text);
+    void instagramData(String ssid, String password, String userName);
   private:
     int _pin;
 };
