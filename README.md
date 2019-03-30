@@ -40,6 +40,13 @@ ex. instanceName.blinking().
 
 # servoTurning(int dataPin);
 //turns servo from 0 to 180 degrees. Must be included with OUT pin of servo.
+
+# displayWrite(const int displayPins, String text, int collums, int rows);
+//Writes some text to display. Define connected pins, text and info about your display (collums, rows).
+
+# instagramData(String ssid, String password, String userName);
+//Gets number of instagram followers on your instagram. (ESP8266/ESP32).
+
 ```
 
 ### Support or Contact
