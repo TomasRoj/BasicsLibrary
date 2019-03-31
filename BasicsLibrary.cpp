@@ -295,13 +295,11 @@ void BasicsLibrary::displayWrite(int one, int two, int three, int four, int five
 #include <LiquidCrystal.h>
 
 // Pin setting. Connected to ins in argument.
-LiquidCrystal lcd(int one, int two, int three, int four, int five, int six);
+LiquidCrystal lcd(one, two, three, four, five, six);
 
   // Here the problem is. Default set to 16x2. Needs some remake.
   lcd.begin(16, 2);
   // Prints text. Dont forget we start counting from 0 :-D
   lcd.setCursor ( 0, 1 );
   lcd.print(text);
-  delay(2000);
-
 }
