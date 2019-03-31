@@ -288,18 +288,18 @@ void BasicsLibrary::playTitanic(){
 
 }
 
-//Writes som text on display. Normally set on 16x2 [Needs some remake].
+//Writes some text on display. Normally set on 16x2 [Needs some remake].
 
 void BasicsLibrary::displayWrite(int one, int two, int three, int four, int five, int six, String text){
-// Library
-#include <LiquidCrystal.h>
+  // Library
+  #include <LiquidCrystal.h>
 
-// Pin setting. Connected to ins in argument.
-LiquidCrystal lcd(one, two, three, four, five, six);
+  // Pin setting. Connected to ins in argument.
+  LiquidCrystal lcd(one, two, three, four, five, six);
 
-  // Here the problem is. Default set to 16x2. Needs some remake.
-  lcd.begin(16, 2);
-  // Prints text. Dont forget we start counting from 0 :-D
-  lcd.setCursor ( 0, 1 );
-  lcd.print(text);
+    // Here the problem is. Default set to 16x2. Needs some remake.
+    lcd.begin(16, 2);
+    // Prints text. Dont forget we start counting from 0 :-D
+    lcd.setCursor ( 0, 1 );
+    lcd.print(text);
 }

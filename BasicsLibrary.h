@@ -27,6 +27,7 @@ class BasicsLibrary
     void playCrazyFrog();
     void playPirates();
     void playTitanic();
+    void playStarWars();
   private:
     int _pin;
 };
