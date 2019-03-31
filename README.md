@@ -32,6 +32,9 @@ ex. instanceName.blinking().
 # blinking(); 
 //Led blinking. Uses pin from instance creation.
 
+# unoBlinking();
+//Blinks builit-in led on arduino uno.
+
 # serial(String text);
 //Starts and prints text to serial (9600 bauds.). Must be used with the string with text.
 
@@ -39,14 +42,28 @@ ex. instanceName.blinking().
 //RGB led blinking with all of its colors. You must define pin of all three diod pins.
 
 # servoTurning(int dataPin);
-//turns servo from 0 to 180 degrees. Must be included with OUT pin of servo.
+//turns servo from 0 to 180 degrees. Must be included with OUT pin of servo. Not availibe for esp based  boards.
 
-# displayWrite(const int displayPins, String text, int collums, int rows);
-//Writes some text to display. Define connected pins, text and info about your display (collums, rows).
+# displayWrite(int one, int wo, int three, int four, int five, int six, String text);
+//Writes some text to display. Define connected pins (6) and text.
 
-# instagramData(String ssid, String password, String userName);
-//Gets number of instagram followers on your instagram. (ESP8266/ESP32).
+# wifiScan();
+//Search for availibe Wifi networks around you. (ESP8266/32).
 
+# wifiAccesPoint(String ssid, String password);
+//Makes simple webserver. Define name f your network and password. (ESP8266/32).
+
+# rtcClock();
+Gets some data about real time. Works only on DS1307 rtc. Connect SCL to A5 and SDA to A4
+
+# playCrazyFrog();
+//Plays crazy frog melody on buzzer.
+
+# playPirates();
+//Play Pirates from Caribic on buzzer.
+
+# playTitanic();
+//Plays Titanic melody on buzzer.
 ```
 
 ### Support or Contact

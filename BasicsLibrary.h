@@ -14,19 +14,19 @@ class BasicsLibrary
   public:
     BasicsLibrary(int pin);
     void blinking();
+    void unoBlinking();
     void serial(String text);
     void btn(int button);
     void btnSetup(int button);
     void rgbLed(int red, int green, int blue);
     void servoTurning(int dataPin);
-    void displayWrite(const int displayPins, String text);
-    void instagramData(String ssid, String password, String userName);
+    void displayWrite(int one, int two, int three, int four, int five, int six, String text);
     void wifiScan();
     void wifiAccesPoint(String ssid, String password);
     void rtcClock(); //DS1307
-    void playCrazyFrog(int pin);
-    void playPirates(int pin);
-    void playTitanic(int pin);
+    void playCrazyFrog();
+    void playPirates();
+    void playTitanic();
   private:
     int _pin;
 };
