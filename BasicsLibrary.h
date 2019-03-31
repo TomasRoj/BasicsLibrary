@@ -20,7 +20,7 @@ class BasicsLibrary
     void rgbLed(int red, int green, int blue);
     void servoTurning(int dataPin);
     void displayWrite(const int displayPins, String text);
-    void instagramData(String ssid, String password, String userName);
+    
     void wifiScan();
     void wifiAccesPoint(String ssid, String password);
     void rtcClock(); //DS1307
