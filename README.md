@@ -64,6 +64,9 @@ Gets some data about real time. Works only on DS1307 rtc. Connect SCL to A5 and 
 
 # playTitanic();
 //Plays Titanic melody on buzzer.
+
+# potenciometerPWM(int potenciometer);
+//Regulates shine of led. Uses led pin from instance creation, must be defined pin of potenciometer.
 ```
 
 ### Support or Contact

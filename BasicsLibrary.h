@@ -28,6 +28,7 @@ class BasicsLibrary
     void playPirates();
     void playTitanic();
     void playStarWars();
+    void potenciometerPWM();
   private:
     int _pin;
 };

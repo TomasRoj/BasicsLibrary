@@ -303,3 +303,28 @@ void BasicsLibrary::displayWrite(int one, int two, int three, int four, int five
     lcd.setCursor ( 0, 1 );
     lcd.print(text);
 }
+
+void BasicsLibrary::potenciometerPWM(int potenciometer){
+
+  int potPin = potenciometer;    // číslo pinu připojeného potenciometru
+  int ledPin = _pin;     // číslo pinu připojené LED diody
+
+  int potProm = 0;    // proměnná pro analogovou hodnotu potenciometru
+  int ledProm = 0;    // proměnná pro analogovou hodnotu PWM
+
+  pinMode(potPin, INPUT);
+
+  // načtení analogové hodnoty senzoru a uložení do proměnné
+  potProm = analogRead(potPin);
+  // přepočet hodnot z potenciometru na PWM LED diody
+  ledProm = map(potProm, 0, 1023, 0, 255);
+  // nastavení napětí na LED diodě odpovídající hodnotě PWM
+  analogWrite(ledPin, ledProm);
+
+
+  // pauza programu na 2 ms pro ustálení 
+  // analogově-digitálního převodníku
+  // po předchozím čtení hodnot
+  delay(2);
+
+}
