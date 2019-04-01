@@ -29,6 +29,7 @@ class BasicsLibrary
     void playTitanic();
     void playStarWars();
     void potenciometerPWM();
+    void blinkNoDelay();
   private:
     int _pin;
 };

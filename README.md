@@ -67,6 +67,9 @@ Gets some data about real time. Works only on DS1307 rtc. Connect SCL to A5 and 
 
 # potenciometerPWM(int potenciometer);
 //Regulates shine of led. Uses led pin from instance creation, must be defined pin of potenciometer.
+
+# blinkNoDelay();
+//Blinks led without delay method.
 ```
 
 ### Support or Contact
