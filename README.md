@@ -1,5 +1,8 @@
+[![arduino-library-badge](https://www.ardu-badge.com/badge/BasicsLibrary.svg?)](https://www.ardu-badge.com/BasicsLibrary)
+
 ## Welcome to BasicsLibrary docs.
 An easy to-use library for beginners with examples to start their adventure with arduino.
+Please use version 1.0 for you projectss now. Version 1.1 is not developed at all.
 
 ### What is it & why you should use it.
 
