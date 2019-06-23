@@ -1,24 +1,24 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-pin  KEYWORD1
+pin	KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 blinking	KEYWORD2
-unoBlinking    KEYWORD2
+unoBlinking	KEYWORD2
 serial	KEYWORD2
 btn	KEYWORD2
 btnSetup	KEYWORD2
-rgbLed  KEYWORD2
-servoTurning KEYWORD2
-displayWrite    KEYWORD2
-wifiScan    KEYWORD2
-wifiAccesPoint  KEYWORD2
-rtcClock    KEYWORD2
-playCrazyFrog   KEYWORD2
-playPirates KEYWORD2 
-playTitanic  KEYWORD2
+rgbLed	KEYWORD2
+servoTurning	KEYWORD2
+displayWrite	KEYWORD2
+wifiScan	KEYWORD2
+wifiAccesPoint	KEYWORD2
+rtcClock	KEYWORD2
+playCrazyFrog	KEYWORD2
+playPirates	KEYWORD2 
+playTitanic	KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
